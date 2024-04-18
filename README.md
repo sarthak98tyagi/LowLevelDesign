@@ -1,2 +1,3 @@
 # LowLevelDesign
-Low Level Design Practise
+Low-Level Design Practice
+I will practice LLD and push my solutions here.
