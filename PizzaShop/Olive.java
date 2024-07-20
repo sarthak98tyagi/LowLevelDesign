@@ -1,20 +1,20 @@
 package PizzaShop;
 
-public class CheeseBurst implements Customization{
+public class Olive implements Customization{
 
     private Pizza pizza;
 
-    public CheeseBurst(Pizza pizza){
+    public Olive(Pizza pizza){
         this.pizza=pizza;
     }
 
     @Override
     public double getCost() {
-        return pizza.getCost()+59;
+        return pizza.getCost()+30;
     }
 
     @Override
     public String description() {
-        return pizza.description()+" Cheese Burst";
+        return pizza.description()+" Olive";
     }
 }

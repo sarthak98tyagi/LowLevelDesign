@@ -1,14 +1,14 @@
 package PizzaShop;
 
-public class GarlicBread implements Item {
+public class WheatBase implements Pizza{
 
     @Override
     public double getCost() {
-        return 60;
+        return 100;
     }
 
     @Override
     public String description() {
-        return "Garlic Bread";
+        return "Wheat Base";
     }
 }

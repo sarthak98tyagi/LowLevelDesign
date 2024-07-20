@@ -1,17 +1,17 @@
 package PizzaShop;
 
-public class HandTossed implements Customization{
+public class Corn implements Customization{
 
     private Pizza pizza;
 
 
     @Override
     public double getCost() {
-        return pizza.getCost()+29;
+        return pizza.getCost()+40;
     }
 
     @Override
     public String description() {
-        return pizza.description()+"\nHand Tossed";
+        return pizza.description()+" Corn";
     }
 }

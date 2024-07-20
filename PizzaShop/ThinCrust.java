@@ -1,13 +1,15 @@
 package PizzaShop;
 
-public class ChocoLavaCake implements Item{
+public class ThinCrust implements Pizza{
+
     @Override
     public double getCost() {
-        return 70;
+        return 90;
     }
 
     @Override
     public String description() {
-        return "Choco Lava Cake";
+        return "Thin Crust";
     }
+
 }
