@@ -38,7 +38,7 @@ public class Splitwise {
                 new Split(userController.getUserList().get(1), 800,0),
                 new Split(userController.getUserList().get(2),0,0),
                 new Split(userController.getUserList().get(3),600,0));
-        group.createExpense("Dinner@Taj",SplitType.NON_UNIFORM_AMOUNT,splitListNonUniform,group.getMemberList().get(1), 1600);
+        group.createExpense("Breakfast@Taj",SplitType.NON_UNIFORM_AMOUNT,splitListNonUniform,group.getMemberList().get(1), 1600);
         for(User user: group.getMemberList()){
             user.displayBalanceSheet();
         }
