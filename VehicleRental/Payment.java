@@ -16,7 +16,6 @@ public class Payment {
         System.out.println("Please pay partial booking charges "+amount);
         paymentMode.processPayment(amount);
         bill.setBillStatus(BillStatus.PARTIAL);
-
     }
 
     public void payDelayCharges(){
